@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tutorial4", "..\tutorial4\t
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "databindingsss", "..\databindingsss\databindingsss.csproj", "{F77FE782-6833-A23A-FA05-783BD764E6BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dialogeboxprj", "..\dialogeboxprj\dialogeboxprj.csproj", "{828218ED-0CA6-48E3-9377-4788D0034BD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{F77FE782-6833-A23A-FA05-783BD764E6BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77FE782-6833-A23A-FA05-783BD764E6BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F77FE782-6833-A23A-FA05-783BD764E6BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828218ED-0CA6-48E3-9377-4788D0034BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828218ED-0CA6-48E3-9377-4788D0034BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828218ED-0CA6-48E3-9377-4788D0034BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828218ED-0CA6-48E3-9377-4788D0034BD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
