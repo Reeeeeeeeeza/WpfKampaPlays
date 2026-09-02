@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dialogeboxprj", "..\dialoge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fileDialogPrj", "..\fileDialogPrj\fileDialogPrj.csproj", "{E695219F-594A-4102-97AF-77844F05CA0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FridayProject", "..\FridayProject\FridayProject.csproj", "{578CAFE2-C8B8-4E93-9876-2B57556A9E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "listview1", "..\listview1\listview1.csproj", "{3BA21540-C136-9F97-88D7-17B0A15E585E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{E695219F-594A-4102-97AF-77844F05CA0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E695219F-594A-4102-97AF-77844F05CA0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E695219F-594A-4102-97AF-77844F05CA0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578CAFE2-C8B8-4E93-9876-2B57556A9E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578CAFE2-C8B8-4E93-9876-2B57556A9E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578CAFE2-C8B8-4E93-9876-2B57556A9E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578CAFE2-C8B8-4E93-9876-2B57556A9E58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA21540-C136-9F97-88D7-17B0A15E585E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA21540-C136-9F97-88D7-17B0A15E585E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA21540-C136-9F97-88D7-17B0A15E585E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA21540-C136-9F97-88D7-17B0A15E585E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
