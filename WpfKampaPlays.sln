@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "scroller", "..\scroller\scr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAW_titlebar", "CAW_titlebar\CAW_titlebar.csproj", "{3AC3601F-9B21-9517-5F81-504E79A1587F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODALpRJ", "MODALpRJ\MODALpRJ.csproj", "{1157ED5B-CDE4-B673-68E7-63946F847879}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{3AC3601F-9B21-9517-5F81-504E79A1587F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3AC3601F-9B21-9517-5F81-504E79A1587F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3AC3601F-9B21-9517-5F81-504E79A1587F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1157ED5B-CDE4-B673-68E7-63946F847879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1157ED5B-CDE4-B673-68E7-63946F847879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1157ED5B-CDE4-B673-68E7-63946F847879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1157ED5B-CDE4-B673-68E7-63946F847879}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
