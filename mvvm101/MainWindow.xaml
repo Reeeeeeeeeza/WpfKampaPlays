@@ -1,0 +1,41 @@
+﻿<Window x:Class="mvvm101.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:mvvm101"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="2">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+
+            <DataGrid 
+                ItemsSource="{Binding Items}"
+                SelectedItem="{Binding SelectedItem}"
+                CanUserAddRows="False" CanUserDeleteRows="False">
+                
+            </DataGrid>
+
+            <StackPanel Grid.Column="1">
+                <Label Content="Name" />
+                <TextBox Width="200" Text="{Binding SelectedItem.Name, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="Serial Number" />
+                <TextBox Width="200" Text="{Binding SelectedItem.SerialNumber, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+                <Label Content="Quantity" />
+                <TextBox Width="200" Text="{Binding SelectedItem.Quantity, UpdateSourceTrigger=PropertyChanged}"/>
+
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
